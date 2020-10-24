@@ -389,6 +389,10 @@ section {
         grid-template-rows: 3fr 4fr 4fr 4fr 4fr repeat(3, 2fr) 4fr 4fr;
     }
 
+.fa-media {
+    font-size: 2em;
+}
+
     #grid-pro>article:nth-of-type(1) {
         grid-area: 1 / 1 / span 1/ span 24;
     }
