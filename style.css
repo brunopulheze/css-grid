@@ -129,7 +129,7 @@ section {
     background-color: #A5E6BA;
 }
 
-#numpad>div:nth-of-type(8):hover, 
+#numpad>div:nth-of-type(8):hover,
 #secondary-part>article:nth-child(4n+1):hover {
     background-color: #ADE8C0;
 }
@@ -384,14 +384,19 @@ section {
 }
 
 @media only screen and (max-width: 800px) {
+
+    div.up, div.down {
+        display: none;
+    }
+
     #grid-pro {
         grid-template-columns: repeat(24, 1fr);
         grid-template-rows: 3fr 4fr 4fr 4fr 4fr repeat(3, 2fr) 4fr 4fr;
     }
 
-.fa-media {
-    font-size: 2em;
-}
+    .fa-media {
+        font-size: 2em;
+    }
 
     #grid-pro>article:nth-of-type(1) {
         grid-area: 1 / 1 / span 1/ span 24;
@@ -450,6 +455,10 @@ section {
 }
 
 @media only screen and (max-width: 480px) {
+
+    section {
+        height: 100vh;
+    }
 
     #grid-pro {
         grid-template-columns: repeat(24, 1fr);
