@@ -385,6 +385,10 @@ section {
 
 @media only screen and (max-width: 800px) {
 
+    #layout-1 {
+        margin-top: 6vh;
+    }
+
     div.up a, div.down a {
         font-size: 3em;
         color: #360568;
@@ -393,6 +397,7 @@ section {
     #layout-5 a {
         font-size: 1em;
         color: black;
+        margin-top: 6vh;
     }
 
     #grid-pro {
