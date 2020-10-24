@@ -386,7 +386,7 @@ section {
 @media only screen and (max-width: 800px) {
 
     div.up, div.down {
-        display: none;
+        visibility: hidden;
     }
 
     #grid-pro {
