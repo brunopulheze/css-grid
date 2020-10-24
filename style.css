@@ -456,10 +456,6 @@ section {
 
 @media only screen and (max-width: 480px) {
 
-    section {
-        height: 100vh;
-    }
-
     #grid-pro {
         grid-template-columns: repeat(24, 1fr);
         grid-template-rows: 2fr repeat(8, 5fr) repeat(8, 5fr) repeat(8, 5fr) repeat(12, 5fr) repeat(8, 5fr);
