@@ -30,8 +30,8 @@ h2 {
 
 
 .container {
-    height: 100vmin;
     display: block;
+    height: 100vh;
 }
 
 section {
@@ -385,8 +385,14 @@ section {
 
 @media only screen and (max-width: 800px) {
 
-    div.up, div.down {
-        visibility: hidden;
+    div.up a, div.down a {
+        font-size: 3em;
+        color: #360568;
+    }
+
+    #layout-5 a {
+        font-size: 1em;
+        color: black;
     }
 
     #grid-pro {
@@ -455,6 +461,14 @@ section {
 }
 
 @media only screen and (max-width: 480px) {
+
+    section:first-of-type>section {
+        margin-top: 15vh;
+    }
+
+    #layout-2, #layout-3 {
+        padding-top: 6vh;
+    }
 
     #grid-pro {
         grid-template-columns: repeat(24, 1fr);
